@@ -1,0 +1,76 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@300;400;500;600;700&family=Mukta:wght@300&family=Poppins&family=Tilt+Prism&family=Ubuntu:wght@300&display=swap');
+body {
+    background-color: #f8f9fa;
+    padding-top: 56px;
+}
+
+.container {
+    border: 2px solid #000;
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px black;
+}
+
+.user {
+    font-size: 1.5rem;
+    color: #007bff;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #dc3545;
+}
+
+.content {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #343a40;
+    font-family: 'Poppins', sans-serif;
+}
+
+.de {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-danger, .btn-success {
+    margin-right: 10px;
+    box-shadow: 5px 5px 8px black;
+}
+
+.create {
+    margin: 30px 100px;
+    width:100px;
+    box-shadow: 5px 5px 8px black;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+#btn {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    background-color: lightgray;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
